@@ -1,0 +1,190 @@
+html {
+	height: 100%;
+	background-color: #586d8b;
+	font-family: arial, Helvetica, Sans-Serif;
+}
+
+body {
+	margin: 0px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0px;
+}
+
+li {
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+img {
+	height: 200px;
+}
+
+#header {
+	height: 80px;
+	background-color: #255f7c;
+	position: fixed;
+	width: 100%;
+	transition-duration: .2s;
+}
+
+#menu_button {
+	width: 100px;
+	position: relative;
+	float: left;
+}
+#menu_button:hover {
+	cursor: pointer;
+}
+
+#whole {
+	position: absolute;
+	z-index: -1;
+	padding-bottom: 80px;
+	margin-top: 80px;
+	width: 100%;
+}
+
+#sidemenu {
+	position: fixed;
+	width: 100px;
+	background-color: #c5c19d;
+	transition-duration: .2s;
+}
+
+.menu-icon {
+    width: 50px;
+    height: 10px;
+    background-color: #00324d;
+    border-radius: 3px;
+    margin-top: 7px;
+    transition-duration: .2s;
+}
+
+#container {
+	padding-left: 25px;
+	padding-top: 11px;
+}
+
+#links:hover {
+	cursor: pointer;
+}
+
+#links {
+	height: 100%;
+	background-color: #255f7c;
+	float: right;
+	position: relative;
+	text-align: center;
+}
+
+#links ul {
+	height: 100%;
+}
+
+#links ul li {
+	display: inline;
+	height: 100%;
+}
+
+.hlink {
+	text-decoration: none;
+	color: black;
+	padding: 31px 16px 31px 16px;
+	transition-duration: .2s;
+	display: inline-block;
+}
+.hlink:hover {
+	background-color: #3983a7;
+}
+
+#maintext {
+	display: inline-block;
+	position: absolute;
+}
+#maintext:hover {
+	cursor: default;
+}
+
+#maintext p {
+	margin-top: 20px;
+	font-size: 40px;
+	transition-duration: .2s;
+}
+
+#chad {
+	float: right;
+	background-color: #255f7c;
+	margin-right: 10px;
+	margin-top: 31px;
+	transition-duration: .2s;
+}
+
+#chad a {
+	text-decoration: none;
+	color: #00324d;
+	font-size: 18px;
+}
+#chad a:hover {
+	text-decoration: underline;
+}
+
+#thetitle {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+#thetitle p {
+	font-size: 30px;
+}
+
+#information {
+	width: 70%;
+	margin-left: 15%;
+	background-color: #b1b3b7;
+	border-radius: 3px;
+	border: 1px solid #00324d;
+	padding: 10px;
+}
+
+#information p {
+	line-height: 200%;
+}
+
+.sideopt p {
+	color: #00324d;
+}
+.sideopt:hover {
+	background-color: #f0ebb9;
+	cursor: pointer;
+}
+
+#topright {
+	float: right;
+
+}
+
+#brain {
+	float: left;
+	padding-right: 5px;
+}
+
+#botleft {
+	float: left;
+	padding-right: 5px;
+}
+
+
+
+
